@@ -1,9 +1,10 @@
 import React from 'react';
+import classes from './Contact.module.scss';
 
 const Contact = () => (
- <React.Fragment>
-     asd
- </React.Fragment>
+    <div className={classes.Contact}>
+        asd
+    </div>
 );
 
 export default Contact;

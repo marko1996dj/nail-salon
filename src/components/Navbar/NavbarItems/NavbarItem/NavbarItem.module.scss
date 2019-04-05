@@ -1,0 +1,14 @@
+.NavbarItem {
+    a{
+        text-decoration: none;
+        color: #bdc5c8;
+        font-size: 20px;
+        margin-right: 30px;
+        transition-duration: .15s;
+
+        &:hover{
+            color: white;
+        }
+    }
+}
+

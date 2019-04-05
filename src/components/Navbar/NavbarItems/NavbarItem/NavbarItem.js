@@ -1,7 +1,9 @@
 import React from 'react';
+import classes from './NavbarItem.module.scss';
+
 
 const NavbarItem = (props) => (
-	<li>
+	<li className={classes.NavbarItem}>
 		<a href={props.link}>{props.children}</a>
 	</li>
 );
