@@ -1,23 +1,28 @@
 .AboutUs {
     display: flex;
     justify-content: center;
-    min-height: 80%;
+    background-color: transparentize($color: #000000, $amount: .6);
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .AboutUsPicture {
     height: 420px;
-    width: 420px;
+    width: 500px;
     background-color: gray;
 }
 
 .AboutUsText{
     height: 420px;
-    width: 420px;
+    width: 500px;
     h1 {
         font-weight: 100;
         font-size: 35px;
         text-align: left;
         margin-left: 30px;
+        padding-bottom: 30px;
         border-bottom: 1px solid gray;
     }
     p{

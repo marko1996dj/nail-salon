@@ -1,8 +1,12 @@
 import React from 'react';
+import classes from './Gallery.module.scss';
+
 
 const Gallery = () => (
     <React.Fragment>
-        <h1>Coming soon..</h1>
+        <div className={classes.Gallery}>
+            <h1>Coming soon..</h1>
+        </div>
     </React.Fragment>
 );
 

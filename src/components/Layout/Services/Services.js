@@ -1,27 +1,34 @@
 import React from 'react';
 import classes from './Services.module.scss';
+import manicure from './images/manicure.png';
+import pedicure from './images/pedicure.png';
+import wax from './images/wax.png';
+
 
 const Services = () => (
 	<React.Fragment>
-		<div>
-			<h1>Services Overview</h1>
-			<div className={classes.Wrapper}>
+		<div className={classes.Wrapper}>
+			<h1>Usluge</h1>
+			<div className={classes.FlexWrapper}>
 				<div className={classes.Manikir}>
-					<p className={classes.title}>Sepsumquia dolor sitmet conse tequam.</p>
+					<img src={manicure} />
+					<p className={classes.title}>Manikir</p>
 					<p className={classes.about}>
 						Dastqui dolorem ipsumquia dolor sitmet conse tequam eius. Asmodi tempora cidunt utabore miase et
 						dolore mag.
 					</p>
 				</div>
 				<div className={classes.Pedikir}>
-					<p className={classes.title}>Quia dolor sitmet conse tequam lore.</p>
+					<img src={pedicure} />
+					<p className={classes.title}>Pedikir</p>
 					<p className={classes.about}>
 						Dastqui dolorem ipsumquia dolor sitmet conse tequam eius. Asmodi tempora cidunt utabore miase et
 						dolore mag.
 					</p>
 				</div>
 				<div className={classes.Depilacija}>
-					<p className={classes.title}>Lorem ipsum dolor sit amet, consectetu.</p>
+					<img src={wax} />
+					<p className={classes.title}>Depilacija</p>
 					<p className={classes.about}>
 						Dastqui dolorem ipsumquia dolor sitmet conse tequam eius. Asmodi tempora cidunt utabore miase et
 						dolore mag.
