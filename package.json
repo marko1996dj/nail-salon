@@ -2,7 +2,7 @@
   "name": "nail-salon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marko1996dj.github.io/nail-salon/",
+  "homepage": "https://marko1996dj.github.io/nail-salon",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
