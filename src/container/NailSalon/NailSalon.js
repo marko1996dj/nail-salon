@@ -17,11 +17,11 @@ class NailSaloon extends Component {
 				<Navbar />
 				<Logo />
 				<Switch>
-					<Route path="" exact render={() => <AboutUs />} />
-					<Route path="about-us" exact render={() => <AboutUs />} />
-					<Route path="services" exact render={() => <Services />} />
-					<Route path="gallery" exact render={() => <Gallery />} />
-					<Route path="contacts" exact render={() => <Contact />} />
+					<Route path="/" exact render={() => <AboutUs />} />
+					<Route path="/about-us" exact render={() => <AboutUs />} />
+					<Route path="/services" exact render={() => <Services />} />
+					<Route path="/gallery" exact render={() => <Gallery />} />
+					<Route path="/contacts" exact render={() => <Contact />} />
 				</Switch>
 				<SocialMedia />
 			</React.Fragment>
