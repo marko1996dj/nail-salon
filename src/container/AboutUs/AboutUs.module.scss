@@ -1,0 +1,46 @@
+@import '../../mixins.scss';
+
+.AboutUs {
+	display: flex;
+	justify-content: center;
+	background-color: transparentize($color: #000000, $amount: .6);
+	width: 60%;
+	height: 500px;
+	margin: 0 auto;
+	align-items: center;
+	color: #f7c479;
+	.AboutUsPicture {
+		height: 420px;
+		width: 500px;
+		background-image: url(./images/wp.png);
+		background-size: cover;
+	}
+	.AboutUsText {
+		height: 420px;
+		width: 500px;
+		h1 {
+			font-weight: 400;
+			font-size: 35px;
+			text-align: left;
+			margin-left: 30px;
+			padding-bottom: 30px;
+			border-bottom: 1px solid gray;
+		}
+		p {
+			text-align: left;
+			margin-left: 30px;
+			font-size: 20px;
+			font-weight: 300;
+		}
+		.White {
+			color: white;
+			font-weight: 400;
+		}
+	}
+}
+
+@include breakpoint (mobileonly) {
+	.AboutUs {
+		display: block;
+	}
+}

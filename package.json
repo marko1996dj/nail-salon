@@ -14,7 +14,8 @@
     "react-router": "^5.0.0",
     "react-router-dom": "^5.0.0",
     "react-routing": "0.0.7",
-    "react-scripts": "2.1.8"
+    "react-scripts": "2.1.8",
+    "react-transition-group": "^2.9.0"
   },
   "scripts": {
     "start": "react-scripts start",

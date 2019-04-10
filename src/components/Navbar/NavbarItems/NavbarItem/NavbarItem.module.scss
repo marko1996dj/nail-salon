@@ -1,14 +1,25 @@
 .NavbarItem {
-    a{
-        text-decoration: none;
-        color: #bdc5c8;
-        font-size: 20px;
-        margin-right: 30px;
-        transition-duration: .15s;
-
-        &:hover{
-            color: white;
-        }
-    }
+	a {
+		text-decoration: none;
+		font-size: 20px;
+		margin-right: 30px;
+		transition-duration: .15s;
+		color: #fc157e;
+		font-weight: 400;
+		&:hover {
+			color: black;
+		}
+	}
+	.Gallery {
+		color: #fc157e;
+	}
+	.AboutUs {
+		color: #f7c479;
+	}
+	.Services {
+		color: #79acf7;
+	}
+	.Contacts {
+		color: #79f7c4;
+	}
 }
-

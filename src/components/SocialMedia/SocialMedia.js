@@ -1,18 +1,24 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faPinterest } from '@fortawesome/free-brands-svg-icons';
 import classes from './SocialMedia.module.scss';
 
 const SocialMedia = (props) => (
 	<ul className={classes.SocialMedia}>
 		<li>
-			<FontAwesomeIcon icon={faFacebook} />
+			<a className={classes.Facebook} href="http://facebook.com" target="_blank">
+				<FontAwesomeIcon icon={faFacebook} />
+			</a>
 		</li>
 		<li>
-			<FontAwesomeIcon icon={faInstagram} />
+			<a className={classes.Instagram} href="http://instagram.com" target="_blank">
+				<FontAwesomeIcon icon={faInstagram} />
+			</a>
 		</li>
 		<li>
-			<FontAwesomeIcon icon={faTwitter} />
+			<a className={classes.Pinterest} href="http://twitter.com" target="_blank">
+				<FontAwesomeIcon icon={faPinterest} />
+			</a>
 		</li>
 	</ul>
 );
