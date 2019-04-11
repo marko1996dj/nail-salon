@@ -11,15 +11,27 @@
 		}
 	}
 	.Gallery {
-		color: #fc157e;
+		color: #a69dd5;
+		&:hover{
+			color: darken(#a69dd5, 25%)
+		}
 	}
 	.AboutUs {
 		color: #f7c479;
+		&:hover{
+			color: darken(#f7c479, 25%)
+		}
 	}
 	.Services {
 		color: #79acf7;
+		&:hover{
+			color: darken(#79acf7, 25%)
+		}
 	}
 	.Contacts {
 		color: #79f7c4;
+		&:hover{
+			color: darken(#79f7c4, 25%)
+		}
 	}
 }

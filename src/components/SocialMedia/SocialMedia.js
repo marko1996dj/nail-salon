@@ -6,17 +6,17 @@ import classes from './SocialMedia.module.scss';
 const SocialMedia = (props) => (
 	<ul className={classes.SocialMedia}>
 		<li>
-			<a className={classes.Facebook} href="http://facebook.com" target="_blank">
+			<a className={classes.Facebook} href="http://facebook.com" target="_blank" rel="noopener noreferrer">
 				<FontAwesomeIcon icon={faFacebook} />
 			</a>
 		</li>
 		<li>
-			<a className={classes.Instagram} href="http://instagram.com" target="_blank">
+			<a className={classes.Instagram} href="http://instagram.com" target="_blank" rel="noopener noreferrer">
 				<FontAwesomeIcon icon={faInstagram} />
 			</a>
 		</li>
 		<li>
-			<a className={classes.Pinterest} href="http://twitter.com" target="_blank">
+			<a className={classes.Pinterest} href="http://twitter.com" target="_blank" rel="noopener noreferrer">
 				<FontAwesomeIcon icon={faPinterest} />
 			</a>
 		</li>

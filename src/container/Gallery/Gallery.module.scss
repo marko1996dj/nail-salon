@@ -1,10 +1,25 @@
 .Gallery {
-	width: 60%;
+	width: 45%;
 	background-color: transparentize($color: #000000, $amount: .6);
 	margin: 0 auto;
 	height: 500px;
 	color: white;
+	background-size: cover;
 	h1 {
 		padding-top: 230px;
+	}
+	.Buttons{
+		font-size: 35px;
+		display: flex;
+		justify-content: space-between;
+		padding: 25% 15px 0 15px;
+		.Icon{
+			transition-duration: 0.15s;
+			color: #a69dd5;
+			&:hover{
+				cursor: pointer;
+				color: darken(#a69dd5, 10%);
+			}
+		}
 	}
 }

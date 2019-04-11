@@ -9,34 +9,36 @@ class Contact extends Component {
 					<div className={classes.Left}>
 						<h1>radno vreme</h1>
 						<table>
-							<tr>
-								<td>ponedeljak</td>
-								<td>08:00 - 16:00</td>
-							</tr>
-							<tr>
-								<td>utorak</td>
-								<td>08:00 - 16:00</td>
-							</tr>
-							<tr>
-								<td>sreda</td>
-								<td>08:00 - 16:00</td>
-							</tr>
-							<tr>
-								<td>cetvrtak</td>
-								<td>08:00 - 16:00</td>
-							</tr>
-							<tr>
-								<td>petak</td>
-								<td>08:00 - 16:00</td>
-							</tr>
-							<tr>
-								<td>subota</td>
-								<td>08:00 - 16:00</td>
-							</tr>
-							<tr>
-								<td>nedelja</td>
-								<td>08:00 - 16:00</td>
-							</tr>
+							<tbody>
+								<tr>
+									<td>ponedeljak</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+								<tr>
+									<td>utorak</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+								<tr>
+									<td>sreda</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+								<tr>
+									<td>cetvrtak</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+								<tr>
+									<td>petak</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+								<tr>
+									<td>subota</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+								<tr>
+									<td>nedelja</td>
+									<td>08:00 - 16:00</td>
+								</tr>
+							</tbody>
 						</table>
 
 						<p>adresa: dragise brasovana 14</p>
