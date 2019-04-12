@@ -1,0 +1,27 @@
+.Wrapper {
+	width: 60%;
+	height: 500px;
+	margin: 0 auto;
+	background-color: transparentize($color: #000000, $amount: .6);
+	h1 {
+		color: #79acf7;
+		padding: 50px 0 50px 0;
+		font-weight: 600;
+	}
+
+	.FlexWrapper {
+		display: flex;
+		padding: 0 20px;
+		.about {
+			margin: 0 auto;
+			width: 70%;
+			color: white;
+			font-weight: 300;
+		}
+	}
+	.title {
+		font-size: 35px;
+		color: #79acf7;
+		font-weight: 400;
+	}
+}
