@@ -4,34 +4,14 @@
 		font-size: 20px;
 		margin-right: 30px;
 		transition-duration: .15s;
-		color: #fc157e;
-		font-weight: 400;
+		background: -webkit-linear-gradient(white, #e2c96e, #b18930);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 		&:hover {
-			color: black;
-		}
-	}
-	.Gallery {
-		color: #a69dd5;
-		&:hover{
-			color: darken(#a69dd5, 25%)
-		}
-	}
-	.AboutUs {
-		color: #f7c479;
-		&:hover{
-			color: darken(#f7c479, 25%)
-		}
-	}
-	.Services {
-		color: #79acf7;
-		&:hover{
-			color: darken(#79acf7, 25%)
-		}
-	}
-	.Contacts {
-		color: #79f7c4;
-		&:hover{
-			color: darken(#79f7c4, 25%)
+			background: -webkit-linear-gradient(white, #1b2f52, #111625);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+
 		}
 	}
 }

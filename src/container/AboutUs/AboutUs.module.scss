@@ -2,33 +2,32 @@
 
 .AboutUs {
 	display: flex;
-	justify-content: center;
-	background-color: transparentize($color: #000000, $amount: .6);
+	justify-content: space-between;
+	background-color: transparentize($color: #caa94d, $amount: .4);
 	width: 60%;
 	height: 500px;
 	margin: 0 auto;
 	align-items: center;
-	color: #efe36a;
+	color: #1b2f52;
 	.AboutUsPicture {
-		height: 420px;
-		width: 500px;
+		height: 500px;
+		width: 50%;
 		background-image: url(./images/wp.png);
 		background-size: cover;
 	}
 	.AboutUsText {
 		height: 420px;
 		width: 500px;
+		margin: 0 30px;
 		h1 {
 			font-weight: 400;
 			font-size: 35px;
 			text-align: left;
-			margin-left: 30px;
 			padding-bottom: 30px;
-			border-bottom: 1px solid gray;
+			border-bottom: 1px solid#111625;
 		}
 		p {
 			text-align: left;
-			margin-left: 30px;
 			font-size: 20px;
 			font-weight: 300;
 		}
@@ -39,8 +38,59 @@
 	}
 }
 
-@include breakpoint (mobileonly) {
+@include breakpoint (desktop) {
 	.AboutUs {
-		display: block;
+		width: 70%;
+	}
+}
+
+@include breakpoint (laptop) {
+	.AboutUs {
+		width: 80%;
+	}
+}
+
+@include breakpoint (tablet) {
+	.AboutUs {
+		display: inline-block;
+		width: 90%;
+		margin: 0 auto;
+		align-items: center;
+		height: 900px;
+		.AboutUsPicture {
+			width: 90%;
+			height: 50%;
+			margin: 5%;
+		}
+		.AboutUsText {
+			width: 90%;
+			margin: 10% 5%;
+			h1 {
+				text-align: center;
+			}
+		}
+	}
+}
+
+@include phone {
+	.AboutUs {
+		background-color: white;
+		height: 600px;
+		.AboutUsPicture {
+			height: 50%;
+		}
+		.AboutUsText {
+			height: 50%;
+			h1 {
+				font-size: 20px;
+			}
+			p {
+				font-size: 15px;
+			}
+
+			.White {
+				color: #caa94d;
+			}
+		}
 	}
 }

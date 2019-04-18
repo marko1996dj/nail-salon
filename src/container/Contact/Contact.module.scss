@@ -1,27 +1,43 @@
+@import '../../mixins.scss';
+
 .Contact {
 	width: 60%;
 	height: 500px;
 	margin: 0 auto;
-	background-color: transparentize($color: #000000, $amount: .6);
-	color: #79f7c4;
+	background-color: transparentize($color: #caa94d, $amount: .4);
+	color: #1b2f52;
 	display: flex;
 	justify-content: space-between;
 	.Left {
 		margin: 5% auto;
-		h1{
-			text-align: left;
+		h1 {
+			text-align: center;
 		}
-        table{
-            tr{
-                td{
-                    text-align: left;
-                    padding-right: 20px;   
-                }
-            }
-        }
-        p{
-            text-align: left;
-        }
+		.Time {
+			padding-bottom: 30px;
+			border-bottom: 1px solid#111625;
+			tr {
+				td {
+					text-align: left;
+					padding-right: 55px;
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+		.Info {
+			padding-top: 30px;
+			tr {
+				td {
+					text-align: right;
+					padding-right: 20px;
+					&:last-child {
+						padding-right: 0;
+					}
+				}
+			}
+		}
 	}
 	.Right {
 		margin: 2%;
@@ -29,6 +45,78 @@
 			height: 450px;
 			width: 450px;
 			background-image: url(./images/map.png);
+		}
+	}
+}
+
+@include breakpoint (desktop) {
+	.Contact {
+		width: 70%;
+		.Left {
+			margin: auto;
+			font-size: 1.2em;
+		}
+		.Right {
+			margin: auto 2%;
+		}
+	}
+}
+
+@include breakpoint (laptop) {
+	.Contact {
+		width: 80%;
+		.Left {
+			margin: auto;
+			font-size: 1em;
+		}
+		.Right {
+			margin: auto 2%;
+			.Image {
+				height: 400px;
+				width: 400px;
+			}
+		}
+	}
+}
+
+@include breakpoint (tablet) {
+	.Contact {
+		width: 90%;
+		display: inline-block;
+		height: 900px;
+		.Left {
+			height: 60%;
+			font-size: 1.5em;
+			.Time {
+				margin: 0 auto;
+			}
+			.Info {
+				margin: 0 auto;
+			}
+		}
+		.Right {
+			height: 40%;
+			.Image {
+				height: 85%;
+				width: 100%;
+			}
+		}
+	}
+}
+
+@include phone {
+	.Contact {
+		background-color: white;
+		h1 {
+			font-size: 30px;
+		}
+		.Left {
+			height: 50%;
+			font-size: 18px;
+		}
+
+		.Right {
+			height: 50%;
 		}
 	}
 }

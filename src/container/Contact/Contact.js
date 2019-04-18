@@ -7,8 +7,8 @@ class Contact extends Component {
 			<React.Fragment>
 				<div className={classes.Contact}>
 					<div className={classes.Left}>
-						<h1>radno vreme</h1>
-						<table>
+						<h1>radno vreme.</h1>
+						<table className={classes.Time}>
 							<tbody>
 								<tr>
 									<td>ponedeljak</td>
@@ -40,10 +40,22 @@ class Contact extends Component {
 								</tr>
 							</tbody>
 						</table>
-
-						<p>adresa: dragise brasovana 14</p>
-						<p>broj telefona: +381 62 649 772</p>
-						<p>e-mail: nail.salon@gmail.com</p>
+						<table className={classes.Info}>
+							<tbody>
+								<tr>
+									<td>adresa:</td>
+									<td>dragise brasovana 14</td>
+								</tr>
+								<tr>
+									<td>telefon:</td>
+									<td>+381 69 1514 762</td>
+								</tr>
+								<tr>
+									<td>e-mail:</td>
+									<td>ibeauty@gamil.com</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<div className={classes.Right}>
 						<div className={classes.Image} />

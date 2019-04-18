@@ -1,5 +1,7 @@
+@import '../../mixins.scss';
+
 .Gallery {
-	width: 45%;
+	width: 60%;
 	background-color: transparentize($color: #000000, $amount: .6);
 	margin: 0 auto;
 	height: 500px;
@@ -12,14 +14,32 @@
 		font-size: 35px;
 		display: flex;
 		justify-content: space-between;
-		padding: 25% 15px 0 15px;
+		padding: 20% 15px 0 15px;
 		.Icon{
 			transition-duration: 0.15s;
-			color: #a69dd5;
+			color: #e2c96e;
 			&:hover{
 				cursor: pointer;
-				color: darken(#a69dd5, 10%);
+				color: darken(#e2c96e, 10%);
 			}
 		}
+	}
+}
+
+@include breakpoint (desktop) {
+	.Gallery {
+		width: 70%;
+	}
+}
+
+@include breakpoint (laptop) {
+	.Gallery {
+		width: 80%;
+	}
+}
+
+@include breakpoint (tablet) {
+	.Gallery {
+		width: 90%;
 	}
 }

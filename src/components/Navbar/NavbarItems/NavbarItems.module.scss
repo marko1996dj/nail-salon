@@ -1,3 +1,6 @@
+@import '../../../mixins';
+
+
 .NavbarItems {
 	list-style-type: none;
 	display: flex;
@@ -6,4 +9,10 @@
 	margin: 50px auto;
 	padding-inline-start: 0px;
 	padding: 20px;
+}
+
+@include phone {
+	.NavbarItems {
+		display: none;
+	}
 }
