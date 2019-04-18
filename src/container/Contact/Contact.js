@@ -12,31 +12,31 @@ class Contact extends Component {
 							<tbody>
 								<tr>
 									<td>ponedeljak</td>
-									<td>08:00 - 16:00</td>
+									<td>09:00 - 21:00</td>
 								</tr>
 								<tr>
 									<td>utorak</td>
-									<td>08:00 - 16:00</td>
+									<td>09:00 - 21:00</td>
 								</tr>
 								<tr>
 									<td>sreda</td>
-									<td>08:00 - 16:00</td>
+									<td>09:00 - 21:00</td>
 								</tr>
 								<tr>
 									<td>cetvrtak</td>
-									<td>08:00 - 16:00</td>
+									<td>09:00 - 21:00</td>
 								</tr>
 								<tr>
 									<td>petak</td>
-									<td>08:00 - 16:00</td>
+									<td>09:00 - 21:00</td>
 								</tr>
 								<tr>
 									<td>subota</td>
-									<td>08:00 - 16:00</td>
+									<td>09:00 - 21:00</td>
 								</tr>
 								<tr>
 									<td>nedelja</td>
-									<td>08:00 - 16:00</td>
+									<td>ne radimo</td>
 								</tr>
 							</tbody>
 						</table>
