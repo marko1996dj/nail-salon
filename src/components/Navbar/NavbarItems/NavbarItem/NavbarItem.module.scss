@@ -1,3 +1,5 @@
+@import '../../../../mixins';
+
 .NavbarItem {
 	a {
 		text-decoration: none;
@@ -12,6 +14,15 @@
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 
+		}
+	}
+}
+
+
+@include breakpoint (tablet) {
+	.NavbarItem {
+		a {
+			font-size: 22px;
 		}
 	}
 }

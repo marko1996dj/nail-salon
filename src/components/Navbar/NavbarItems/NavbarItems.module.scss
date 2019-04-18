@@ -11,6 +11,24 @@
 	padding: 20px;
 }
 
+@include breakpoint (desktop) {
+	.NavbarItems {
+		width: 70%;
+	}
+}
+
+@include breakpoint (laptop) {
+	.NavbarItems {
+		width: 80%;
+	}
+}
+
+@include breakpoint (tablet) {
+	.NavbarItems {
+		width: 90%;
+	}
+}
+
 @include phone {
 	.NavbarItems {
 		display: none;
